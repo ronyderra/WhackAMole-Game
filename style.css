@@ -1,0 +1,22 @@
+.board {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+    margin: auto;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.mole {
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
